@@ -49,7 +49,202 @@ window.STBV_DATA = {
     { title: "Wallpapers & fan art", description: "Próximamente: espacio para compartir mis diseños.", url: "" }
   ],
   // El historial registra versiones del código; añade la fecha real de publicación si lo deseas.
+  memoryCollections: [
+    {
+      "id": "ep-dual-regulares",
+      "name": "EP DUAL regulares",
+      "back": "assets/games/memory/ep-dual-regulares/back.jpg",
+      "cards": [
+        {
+          "id": "ale",
+          "name": "Alejandro",
+          "image": "assets/games/memory/ep-dual-regulares/ale.jpg"
+        },
+        {
+          "id": "drew",
+          "name": "Drew",
+          "image": "assets/games/memory/ep-dual-regulares/drew.jpg"
+        },
+        {
+          "id": "gabi",
+          "name": "Gabi",
+          "image": "assets/games/memory/ep-dual-regulares/gabi.jpg"
+        },
+        {
+          "id": "kaue",
+          "name": "Kauê",
+          "image": "assets/games/memory/ep-dual-regulares/kaue.jpg"
+        },
+        {
+          "id": "kenneth",
+          "name": "Kenneth",
+          "image": "assets/games/memory/ep-dual-regulares/kenneth.jpg"
+        }
+      ]
+    },
+    {
+      "id": "la-fansign-kpopnara",
+      "name": "L.A. fansign kpopnara",
+      "back": "assets/games/memory/la-fansign-kpopnara/back.jpg",
+      "cards": [
+        {
+          "id": "ale",
+          "name": "Alejandro",
+          "image": "assets/games/memory/la-fansign-kpopnara/ale.jpg"
+        },
+        {
+          "id": "drew",
+          "name": "Drew",
+          "image": "assets/games/memory/la-fansign-kpopnara/drew.jpg"
+        },
+        {
+          "id": "gabi",
+          "name": "Gabi",
+          "image": "assets/games/memory/la-fansign-kpopnara/gabi.jpg"
+        },
+        {
+          "id": "kaue",
+          "name": "Kauê",
+          "image": "assets/games/memory/la-fansign-kpopnara/kaue.jpg"
+        },
+        {
+          "id": "kenneth",
+          "name": "Kenneth",
+          "image": "assets/games/memory/la-fansign-kpopnara/kenneth.jpg"
+        }
+      ]
+    },
+    {
+      "id": "class-of-santos-bravos-flower",
+      "name": "Class of Santos Bravos - Flower ver",
+      "back": "assets/games/memory/class-of-santos-bravos-flower/back.jpg",
+      "cards": [
+        {
+          "id": "ale",
+          "name": "Alejandro",
+          "image": "assets/games/memory/class-of-santos-bravos-flower/ale.jpg"
+        },
+        {
+          "id": "drew",
+          "name": "Drew",
+          "image": "assets/games/memory/class-of-santos-bravos-flower/drew.jpg"
+        },
+        {
+          "id": "gabi",
+          "name": "Gabi",
+          "image": "assets/games/memory/class-of-santos-bravos-flower/gabi.jpg"
+        },
+        {
+          "id": "kaue",
+          "name": "Kauê",
+          "image": "assets/games/memory/class-of-santos-bravos-flower/kaue.jpg"
+        },
+        {
+          "id": "kenneth",
+          "name": "Kenneth",
+          "image": "assets/games/memory/class-of-santos-bravos-flower/kenneth.jpg"
+        }
+      ]
+    },
+    {
+      "id": "lucky-draw-dongsong",
+      "name": "Lucky Draw DONGSONG",
+      "back": "assets/games/memory/lucky-draw-dongsong/back.jpg",
+      "cards": [
+        {
+          "id": "ale",
+          "name": "Alejandro",
+          "image": "assets/games/memory/lucky-draw-dongsong/ale.jpg"
+        },
+        {
+          "id": "drew",
+          "name": "Drew",
+          "image": "assets/games/memory/lucky-draw-dongsong/drew.jpg"
+        },
+        {
+          "id": "gabi",
+          "name": "Gabi",
+          "image": "assets/games/memory/lucky-draw-dongsong/gabi.jpg"
+        },
+        {
+          "id": "kaue",
+          "name": "Kauê",
+          "image": "assets/games/memory/lucky-draw-dongsong/kaue.jpg"
+        },
+        {
+          "id": "kenneth",
+          "name": "Kenneth",
+          "image": "assets/games/memory/lucky-draw-dongsong/kenneth.jpg"
+        }
+      ]
+    },
+    {
+      "id": "pobs-kpopnara",
+      "name": "POBS KPOPNARA",
+      "back": "assets/games/memory/pobs-kpopnara/back.jpg",
+      "cards": [
+        {
+          "id": "ale",
+          "name": "Alejandro",
+          "image": "assets/games/memory/pobs-kpopnara/ale.jpg"
+        },
+        {
+          "id": "drew",
+          "name": "Drew",
+          "image": "assets/games/memory/pobs-kpopnara/drew.jpg"
+        },
+        {
+          "id": "gabi",
+          "name": "Gabi",
+          "image": "assets/games/memory/pobs-kpopnara/gabi.jpg"
+        },
+        {
+          "id": "kaue",
+          "name": "Kauê",
+          "image": "assets/games/memory/pobs-kpopnara/kaue.jpg"
+        },
+        {
+          "id": "kenneth",
+          "name": "Kenneth",
+          "image": "assets/games/memory/pobs-kpopnara/kenneth.jpg"
+        }
+      ]
+    },
+    {
+      "id": "pobs-dongsong",
+      "name": "POBS DONGSONG",
+      "back": "assets/games/memory/pobs-dongsong/back.jpg",
+      "cards": [
+        {
+          "id": "ale",
+          "name": "Alejandro",
+          "image": "assets/games/memory/pobs-dongsong/ale.jpg"
+        },
+        {
+          "id": "drew",
+          "name": "Drew",
+          "image": "assets/games/memory/pobs-dongsong/drew.jpg"
+        },
+        {
+          "id": "gabi",
+          "name": "Gabi",
+          "image": "assets/games/memory/pobs-dongsong/gabi.jpg"
+        },
+        {
+          "id": "kaue",
+          "name": "Kauê",
+          "image": "assets/games/memory/pobs-dongsong/kaue.jpg"
+        },
+        {
+          "id": "kenneth",
+          "name": "Kenneth",
+          "image": "assets/games/memory/pobs-dongsong/kenneth.jpg"
+        }
+      ]
+    }
+  ],
   patchnotes: [
+    { version: "3.3", title: "Photocard Collection Update", changes: ["Seis colecciones de photocards reales: 30 frentes y seis reversos originales.", "Memorama visual de cinco parejas, cronómetro y récord local por colección."] },
     { version: "3.2", title: "Choose your BRAVO", changes: ["Cinco personajes seleccionables, animaciones idle/run y doce objetos ilustrados.", "Bonus, vidas extra y efectos temporales."] },
     { version: "3.1", title: "DUAL Arcade Update", changes: ["SongGuess: cinco intentos, pistas progresivas y fragmentos de audio opcionales.", "BRAVO_CATCH: arcade de objetos, tres vidas y récord local; controles de teclado y táctiles."] },
     { version: "3.0", title: "BRAVOVERSE expansion", changes: ["Nuevos módulos: PatchNotes, LostMedia, Credits, Meet_STBV, DUAL_GAMES y DUAL_TOOLKIT.", "Memorama y trivia interactivos; plantillas descargables.", "Aportaciones con permiso opcional de crédito; navegación agrupada."] },
