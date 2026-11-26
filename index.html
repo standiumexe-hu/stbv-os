@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Un espacio fan-made para compartir música, playlists y recuerdos de Santos Bravos.">
+  <meta name="theme-color" content="#221b31">
+  <title>STBV_OS — A little corner of the BRAVOVERSE.</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="data.js" defer></script>
+  <script src="community.js" defer></script>
+  <script src="extras.js" defer></script>
+  <script src="games.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="desktop">
+    <header class="topbar"><a class="brand" href="#playlists"> <span class="brand-mark">♡</span> STBV<span>_OS</span></a><span class="status"><i></i> FAN SYSTEM <span class="version"> / V3.2</span></span></header>
+    <main class="workspace">
+      <aside class="shortcuts" aria-label="Accesos directos">
+        <p class="desktop-label">DESKTOP / 01</p>
+        <button id="apps-toggle" class="apps-toggle" type="button" aria-expanded="false" aria-controls="shortcuts">▦ Todas las aplicaciones</button><nav id="shortcuts"></nav>
+        <div class="desktop-note">FROM PRE-DEBUT<br>TO INFINITY <span>♡</span></div>
+      </aside>
+      <div class="main-area">
+        <section class="intro" aria-label="Bienvenida"><div><p class="eyebrow">FAN-MADE SYSTEM / 001</p><h1>Welcome, <em>DUAL.</em></h1><p><strong>A little corner of the BRAVOVERSE.</strong><br>Built by a DUAL. Made for DUALS. From pre-debut to infinity. ♡</p></div><div class="intro-heart" aria-hidden="true">♡<small>LOADING LOVE...</small></div></section>
+        <section class="window" id="window" aria-labelledby="window-title">
+          <header class="window-bar"><div class="window-title"><span id="window-icon" aria-hidden="true">♫</span><h2 id="window-title">Playlists.exe</h2></div><div class="window-controls"><button type="button" id="minimize" title="Minimizar" aria-label="Minimizar">−</button><button type="button" id="maximize" title="Maximizar o restaurar" aria-label="Maximizar" aria-pressed="false">□</button><button type="button" id="close" title="Cerrar" aria-label="Cerrar">×</button></div></header>
+          <div class="window-menu"><span>File</span><span>View</span><span>♡ Fandom</span><span class="window-path" id="window-path">C:\STBV\PLAYLISTS</span></div>
+          <div class="window-content" id="window-content"></div>
+          <footer class="window-footer"><span id="item-count">Ready.</span><span>♡ UNOFFICIAL FAN PROJECT</span></footer>
+        </section>
+        <div class="bottom-note"><span>01 / STBV_OS</span><span>MADE WITH ♡ BY A DUAL</span></div>
+      </div>
+    </main>
+    <footer class="taskbar"><div class="start-wrap"><button class="start" id="start" aria-expanded="false" aria-controls="start-menu"><span>▦</span> Start</button><nav id="start-menu" class="start-menu" aria-label="Menú de inicio" hidden></nav></div><div class="task-separator"></div><button class="task-button" id="task-button" aria-pressed="true">♫ Playlists.exe</button><div class="task-right"><span>♡ ONLINE</span><time id="clock"></time></div></footer>
+  </div>
+  <dialog id="player-dialog" aria-labelledby="player-title"><div class="window-bar"><h2 id="player-title">Apple Music</h2><button class="dialog-close" id="player-close" aria-label="Cerrar reproductor">×</button></div><div id="player-body"></div></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>

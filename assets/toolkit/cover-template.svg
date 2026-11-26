@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+<rect width="1000" height="1000" fill="#251c34"/>
+<g fill="none" stroke="#bda7d3" opacity=".25"><path d="M0 100H1000M0 200H1000M0 300H1000M0 400H1000M0 500H1000M0 600H1000M0 700H1000M0 800H1000M0 900H1000M100 0V1000M200 0V1000M300 0V1000M400 0V1000M500 0V1000M600 0V1000M700 0V1000M800 0V1000M900 0V1000"/></g>
+<rect x="100" y="220" width="800" height="560" fill="#faf2e9" stroke="#15101d" stroke-width="8"/>
+<path d="M104 224H896V300H104Z" fill="#e6aacd"/>
+<g font-family="monospace" fill="#251c34"><text x="130" y="272" font-size="28">STBV_OS / PLAYLIST.EXE</text><text x="500" y="480" font-size="64" font-weight="bold" text-anchor="middle">YOUR TITLE</text><text x="500" y="552" font-size="26" text-anchor="middle">EDIT YOUR DESCRIPTION</text><text x="500" y="665" font-size="44" text-anchor="middle">♡</text></g>
+<text x="500" y="870" font-family="monospace" font-size="24" fill="#f2a9cd" text-anchor="middle">BUILT BY A DUAL. MADE FOR DUALS.</text>
+</svg>

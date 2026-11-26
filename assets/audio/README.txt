@@ -1,0 +1,1 @@
+Agrega únicamente audios originales propios o fragmentos con autorización expresa para publicarlos. No se incluyen grabaciones de Santos Bravos. Configura audio: "assets/audio/nombre.mp3" en data.js. La reproducción se limita a dos segundos desde el inicio del archivo; esto no sustituye el permiso para distribuirlo.
